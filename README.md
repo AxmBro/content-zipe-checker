@@ -12,19 +12,23 @@ Affects Bedrock on all platforms (PC, phone, console). Java is safe. It's alread
 
 **Don't panic.** It only went public recently, so the chance you already have a bad pack is low. It may have been used before that, though, so it's worth checking once.
 
+**Update:** Bedrock 26.65 (a Windows hotfix) reportedly fixes this. Mojang hasn't confirmed it yet, and other platforms may get the fix later. Update Minecraft everywhere you play, and still check for packs you used before the update.
+
 More info: [Reddit](https://www.reddit.com/r/ibxtoycat/comments/1xwrux7/resource_packs_can_contain_malware_now) · [X](https://x.com/theaddonn/status/2121968232743727464)
 
 ## Stay safe until it's patched
 
 - Don't join random servers or Realms
 - Only use packs from people you trust
-- Update Minecraft as soon as the fix is out
+- Update Minecraft on every device (26.65 or newer on Windows)
 - Send this page to friends who play Bedrock
 
 ## Check your PC
 
 1. **[Download check-content-zipe.bat](https://github.com/AxmBro/content-zipe-checker/releases/latest/download/check-content-zipe.bat)**
 2. Double-click it. If Windows asks whether to run it, click **Run** (or **More info > Run anyway**)
+
+![Example result: two packs with content.zipe found](docs/screenshot.png)
 
 It's a diagnostic tool: it only reads files and tells you what it found. Nothing is changed, deleted or sent. It can't tell if a pack is actually malicious, and a clean result only covers what's on your PC right now.
 
